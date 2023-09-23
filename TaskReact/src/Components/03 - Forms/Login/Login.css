@@ -1,0 +1,76 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #F0F2F5;
+    min-height: 100vh;
+}
+
+.login-card {
+    text-align: center;
+    padding: 60px 80px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7); */
+    background-color: #fff;
+}
+
+.login-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+button{
+    border-radius: 10px;
+}
+.login-button.google {
+    background-color: #4285f4;
+    color: #fff;
+}
+
+.login-button.facebook {
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.login-button.primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#signInBtn img{
+    height: 17px;
+    width: 17px;
+}
+#signInBtn:hover{
+    background-color: rgba(128, 128, 128, 0.096);
+}
+
+.row{
+    margin: 35px;
+}
+.inputField{
+    margin-top: 20px;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+}

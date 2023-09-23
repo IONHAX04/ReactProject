@@ -1,0 +1,70 @@
+        <div className="row">
+            <div className="col-lg-3">
+                <img className='frontSideImg' src={FrontImg}></img>
+            </div>
+            <div className="col-lg-5">
+                <Form>
+                    <h3>Diet Planner</h3>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>Email address</Form.Label>
+                        <Form.Control type="email" placeholder="Enter email" />
+
+                    </Form.Group>
+
+                    <Form.Group className="mb-3" controlId="formBasicPassword">
+                        <Form.Label>Password</Form.Label>
+                        <Form.Control type="password" placeholder="Password" />
+                        <Form.Text className="text-muted">
+                            Forgot Password? <a href='#'> Click here </a>
+                        </Form.Text>
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                        <Form.Check type="checkbox" label="Check me out" />
+                    </Form.Group>
+                    <Button variant="primary" type="submit">
+                        Submit
+                    </Button>
+                </Form>
+
+            </div>
+        </div>
+
+
+
+=============================
+
+
+body {
+    background-color: rgba(127, 255, 212, 0.418);
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 100vh;
+    justify-content: center;
+    /* Horizontally center content */
+    align-items: center;
+    /* Vertically center content */
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.card input{
+    margin: 10px;
+}
+
+
